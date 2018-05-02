@@ -1,6 +1,10 @@
-print("Loading Game... (Importing Modules)")
+print("Loading Game... (Importing Modules And Upgrading Pip Modules)")
 import turtle
 import ros
+try:
+	ros.pipupdate()
+except:
+	pass
 
 ros.paraspace()
 
