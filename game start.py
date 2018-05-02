@@ -5,6 +5,8 @@ print("Loading Game... (Importing ROS Code...)")
 import ros
 
 print("Done")
+ros.paraspace()
+print("To Continue, Solve The Captcha")
 delay(2)
 ros.paraspace(5)
 
