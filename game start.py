@@ -1,10 +1,13 @@
 print("Loading Game... (Importing Turtle)")
 import turtle
+
 print("Loading Game... (Importing ROS Code...)")
 import ros
+
 print("Done")
 delay(2)
 ros.paraspace(5)
+
 print("A Game By...")
 ros.delay(3)
 ros.paraspace(2)
