@@ -1,14 +1,17 @@
-print("Loading Game... (Importing Turtle)")
+print("Loading Game... (Importing Modules)")
 import turtle
-
-print("Loading Game... (Importing ROS Code...)")
 import ros
 
-print("Done")
 ros.paraspace()
+
 print("To Continue, Solve The Captcha")
-delay(2)
-ros.paraspace(5)
+
+if ros.captcha() == False:
+	print("Access Denied! You Are A Bot!")
+	ros.exitexecution()
+	
+ros.delay(2)
+ros.paraspace(3)
 
 print("A Game By...")
 ros.delay(3)
@@ -22,4 +25,3 @@ ros.delay(2)
 
 print("ROS Inc")
 ros.delay(3)
-
