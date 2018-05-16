@@ -7,7 +7,7 @@ branches:
  - master
 
 script:
- - python "game start.py"
+ - python "part1.py"
 
 notifications:
   email: false
