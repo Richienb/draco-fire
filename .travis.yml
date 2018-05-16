@@ -1,0 +1,14 @@
+language: python
+
+python:
+ - 3.6.3
+
+branches:
+ - master
+
+script:
+ - cd project
+ - python readsettings.py
+
+notifications:
+  email: false
