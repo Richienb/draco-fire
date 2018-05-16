@@ -7,7 +7,7 @@ branches:
  - master
 
 script:
- - python readsettings.py
+ - python "game start.py"
 
 notifications:
   email: false
