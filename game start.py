@@ -17,15 +17,4 @@ if ros.captcha() == False:
 ros.delay(2)
 ros.paraspace(3)
 
-print("A Game By...")
-ros.delay(3)
-ros.paraspace(2)
-
-print("Shards Inc")
-ros.delay(3)
-
-print("And...")
-ros.delay(2)
-
-print("ROS Inc")
-ros.delay(3)
+import part1
