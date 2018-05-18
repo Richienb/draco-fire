@@ -6,6 +6,8 @@ python --version >NUL
 if errorlevel 1 goto errorNoPython
 
 :: Game Code Below...
+python "prepare.py"
+cls
 python "part1.py"
 cls
 python "part2.py"
