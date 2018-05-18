@@ -16,5 +16,3 @@ if ros.captcha() == False:
 	
 ros.delay(2)
 ros.paraspace(3)
-
-import part1
