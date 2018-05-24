@@ -8,7 +8,8 @@ branches:
 
 script:
  - cd "game"
-  -python "newsave.py"
+ - python "newsave.py"
+ - python "setupsettings.py"
  - python "part1.py"
  - python "part2.py"
 
