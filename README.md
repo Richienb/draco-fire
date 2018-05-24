@@ -6,7 +6,8 @@ Documentation:
 <https://lunala1.github.io/draco-fire>
 
 Continuous Integration Status:
-[![Code Quality](https://www.codefactor.io/repository/github/lunala1/draco-fire/badge)](https://www.codefactor.io/repository/github/lunala1/mprb) | [![Build Status](https://travis-ci.org/lunala1/draco-fire.svg?branch=master)](https://travis-ci.org/lunala1/draco-fire)
+[![Code Quality](https://www.codefactor.io/repository/github/lunala1/draco-fire/badge?longCache=true&style=for-the-badge)](https://www.codefactor.io/repository/github/lunala1/draco-fire) | 
+[![Build Status](https://img.shields.io/travis/lunala1/draco-fire.svg?style=for-the-badge)](https://travis-ci.org/lunala1/draco-fire)
 
 Packages/Dependencies:
 [ROS-Code](https://www.ros-code.ga/) | [ReadSettings-Python](https://www.richie-bendall.ml/readsettings-python/)
