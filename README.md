@@ -6,7 +6,7 @@ Documentation:
 <https://lunala1.github.io/draco-fire>
 
 Continuous Integration Status:
-[![Code Quality](https://www.codefactor.io/repository/github/lunala1/draco-fire/badge?longCache=true&style=for-the-badge)](https://www.codefactor.io/repository/github/lunala1/draco-fire) | 
+[![Code Quality](https://www.codefactor.io/repository/github/lunala1/draco-fire/badge?longCache=true&style=for-the-badge)](https://www.codefactor.io/repository/github/lunala1/draco-fire) 
 [![Build Status](https://img.shields.io/travis/lunala1/draco-fire.svg?style=for-the-badge)](https://travis-ci.org/lunala1/draco-fire)
 
 Packages/Dependencies:
