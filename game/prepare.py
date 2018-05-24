@@ -1,5 +1,4 @@
 print("Loading Game... (Importing Modules)")
-import turtle
 import ros
 
 ros.paraspace()
