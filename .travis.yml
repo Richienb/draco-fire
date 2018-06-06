@@ -12,7 +12,6 @@ script:
  - python "setupsettings.py"
  - python "part1.py"
  - python "part2.py"
- - python "graphics.py"
  - python "ros.py"
  - python "readsettings.py"
 
