@@ -1079,7 +1079,7 @@ def convertbase(number, base=10):
 	return ('' if sign == 1 else '-') + res[::-1]
 
 # Convert A ASCII Value To A Symbol
-def convertsymbol(value, command):
+def convertascii(value, command='to'):
 	command = command.lower()
 	if command == 'to':
 		try:
@@ -1093,6 +1093,14 @@ def convertsymbol(value, command):
 			raise RuntimeError('Invalid Symbol (0015)')
 	else:
 		raise RuntimeError('An Error Has Occured: Invalid Operation Entered (0008)')
+
+# Evaluate A Expression Or Operation
+def evaluate(evaluation):
+	return eval(str(evaluation))
+
+# Execute A Line Of Python Code
+def execute(execution):
+	exec(str(execution))
 			
 # Get The Type Of A Value
 def gettype(value):
@@ -1126,6 +1134,10 @@ def wordvalue(word):
 	for i in enumerate(word):
 		total += letternum(word[i])
 	return total
+
+# Get the Range Of The Length
+def enum(arguments):
+	return enumerate(arguments)
 
 # Get The Text Between Two Parts
 def textbetween(variable, firstnum=None, secondnum=None, locationoftext='regular'):
