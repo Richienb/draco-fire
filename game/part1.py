@@ -5,15 +5,18 @@ print("A Game By...")
 ros.delay(3)
 ros.paraspace(2)
 
-color('red', 'yellow')
-begin_fill()
-while True:
-    forward(200)
-    left(170)
-    if abs(pos()) < 1:
-        break
-end_fill()
-done()
+try:
+    color('red', 'yellow')
+    begin_fill()
+    while True:
+      forward(200)
+      left(170)
+      if abs(pos()) < 1:
+          break
+    end_fill()
+    done()
+except:
+    print("No monitor Found!")
 
 print("shinyA Inc")
 ros.delay(3)
