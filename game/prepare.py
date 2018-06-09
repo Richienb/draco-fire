@@ -5,7 +5,7 @@ ros.paraspace()
 
 while True:
 	print("To Continue, Solve The Captcha")
-	if ros.captcha() == False:
+	if ros.captcha() is False:
 		print("Access Denied! You Are A Bot!")
 		print('', end='\n')
 	else:
