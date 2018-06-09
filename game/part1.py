@@ -15,7 +15,7 @@ try:
           break
     end_fill()
     done()
-except:
+except Exception as e:
     print("Error: " + type(e).__name__)
 
 print("shinyA Inc")
