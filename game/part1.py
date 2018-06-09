@@ -15,8 +15,8 @@ try:
           break
     end_fill()
     done()
-except Exception as e:
-    print("Error: " + type(e).__name__)
+except TclError:
+    print("No Monitor Found!")
 
 print("shinyA Inc")
 ros.delay(3)
