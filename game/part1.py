@@ -16,7 +16,7 @@ try:
     end_fill()
     done()
 except:
-    print("No monitor Found!")
+    print("Error: " + type(e).__name__)
 
 print("shinyA Inc")
 ros.delay(3)
