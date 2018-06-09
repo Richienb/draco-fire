@@ -1,5 +1,5 @@
 import ros
-from turtle import color, begin_fill, forward, left, end_fill, done
+from turtle import color, begin_fill, forward, left, end_fill, done, pos
 
 print("A Game By...")
 ros.delay(3)
