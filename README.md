@@ -11,3 +11,4 @@ Continuous Integration Status:
 
 Packages/Dependencies:
 [ROS-Code](https://www.ros-code.ga/) | [ReadSettings-Python](https://www.richie-bendall.ml/readsettings-python/)
+	https://img.shields.io/github/repo-size/badges/shields.svg
