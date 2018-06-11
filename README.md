@@ -8,9 +8,6 @@ Documentation:
 Continuous Integration Status:
 [![Code Quality](https://www.codefactor.io/repository/github/Richienb/draco-fire/badge?longCache=true&style=for-the-badge)](https://www.codefactor.io/repository/github/Richienb/draco-fire) 
 [![Build Status](https://img.shields.io/travis/Richienb/draco-fire.svg?style=for-the-badge)](https://travis-ci.org/Richienb/draco-fire)
-	
-![Code Climate](https://img.shields.io/codeclimate/issues/richienb/draco%20fire)
-
 ![GitHub repo size in bytes](https://img.shields.io/github/repo-size/Richienb/draco-fire.svg)
 
 Packages/Dependencies:
